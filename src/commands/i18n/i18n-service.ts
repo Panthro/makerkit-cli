@@ -157,7 +157,7 @@ async function translateString(
     messages: [
       {
         role: 'user',
-        content: `Translate the text from locale ${source} to ${target}, your translation will be directly used in a file so don't explain it, just give the translation and following the same punctuation. Text: ${key}`,
+        content: `Translate the text from locale ${source} to ${target}, your translation will be directly used in a file so don't explain it, just give the translation and following the same punctuation, use a casual human-like tone that's best for UX. Text: ${key}`,
       },
     ],
   });
